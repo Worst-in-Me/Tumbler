@@ -1,0 +1,32 @@
+.tumbler {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgb(232, 70, 70);
+    background-color: rgb(232, 70, 70);
+    transition: all linear 0.4s;
+}
+
+.button {    
+    height: 45px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 50%;
+}
+
+.tumblerOn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgb(86, 212, 86);
+    background-color: rgb(86, 212, 86);
+    transition: all linear 0.5s;
+}
